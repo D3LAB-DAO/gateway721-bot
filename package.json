@@ -1,0 +1,31 @@
+{
+  "name": "gateway721-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D3LAB-DAO/gateway721-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D3LAB-DAO/gateway721-bot/issues"
+  },
+  "homepage": "https://github.com/D3LAB-DAO/gateway721-bot#readme",
+  "dependencies": {
+    "@cosmjs/cosmwasm": "^0.25.6",
+    "@cosmjs/cosmwasm-launchpad": "^0.25.6",
+    "@cosmjs/cosmwasm-stargate": "^0.31",
+    "@cosmjs/launchpad": "^0.27.1",
+    "@cosmjs/stargate": "^0.31",
+    "axios": "^1.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
