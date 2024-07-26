@@ -36,8 +36,8 @@ const handleError = (error, message) => {
 };
 
 // Set gas price and execution fee
-// const gasPrice = GasPrice.fromString("140000000000aarch");
-const gasPrice = GasPrice.fromString("140000000000aconst");
+const gasPrice = GasPrice.fromString("140000000000aarch");
+// const gasPrice = GasPrice.fromString("140000000000aconst");
 const executeFee = calculateFee(300_000, gasPrice);
 
 const bot = async () => {
